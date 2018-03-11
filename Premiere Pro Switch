@@ -1,0 +1,6 @@
+INSERT DESIRED KEY::
+IfWinNotExist, ahk_class Premiere Pro
+	Run, Adobe Premiere Pro.exe
+
+else
+	WinActivate ahk_class Premiere Pro
