@@ -1,0 +1,4 @@
+INSERT DESIRED KEY HERE::
+WinActivate ahk_class SpotifyMainWindow
+	Send ^{space}
+Return
