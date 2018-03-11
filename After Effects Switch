@@ -1,4 +1,7 @@
-
-INSERT DESIRED KEY::
+INSERT DESIRES KEY::
+IfWinNotExist, ahk_class AE_CApplication_14.2
+	Run, C:\Program Files\Adobe\Adobe After Effects CC 2017\Support Files\AfterFX.exe
+  
+else
 WinActivate ahk_class AE_CApplication_14.2
 Return
